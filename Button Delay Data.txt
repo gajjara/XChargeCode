@@ -1,0 +1,62 @@
+BUTTON DELAY DATA
+
+CONTROL D-Pad Data
+Left D-Pad press time: 0.157981
+Up D-Pad press time: 0.175993
+Right D-Pad press time:0.175996
+Down D-Pad press time: 0.163996
+
+CONTROL Button Data
+Share button press time: 0.172000
+Options button press time: 0.177998
+Home button press time: 0.178000
+Left button press time: 0.197997
+Up button press time: 0.197981
+Right button press time: 0.182015
+Down button press time: 0.209991
+L1 button press time: 0.186000
+R1 button press time: 0.215990
+Left Joystick button press time: 0.161992
+Right Joystick button press time: 0.175998
+
+-------------------------------------------
+TEST D-Pad Data
+Left D-Pad press time: 0.175998
+Up D-Pad press time: 0.148000
+Right D-Pad press time: 0.144007
+Down D-Pad press time: 0.116002
+
+TEST Button Data
+Share button press time: 0.176004
+Options button press time: 0.209990
+Home button press time: 0.089996
+Left button press time: 0.227997
+Up button press time: 0.250002
+Right button press time: NULL
+Down button press time: 0.322009
+L1 button press time: 0.255988
+R1 button press time: 0.220000
+Left Joystick button press time: 0.196010
+Right Joystick button press time: 0.215979
+-------------------------------------------
+
+DELAY DATA
+Left D-Pad delay percentage: 11.4%
+Up D-Pad delay percentage: 0.0%
+Right D-Pad delay percentage: 0.0%
+Down D-Pad delay percentage: 0.0%
+
+TEST Button Data
+Share button delay percentage: 2.3%
+Options button delay percentage: 18.0%
+Home button delay percentage: 0.0%
+Left button delay percentage: 15.2%
+Up button delay percentage: 8.8%
+Right button delay percentage: NULL
+Down button delay percentage: 53.3%
+L1 button delay percentage: 37.6%
+R1 button delay percentage: 1.9%
+Left Joystick button delay percentage: 21.0%
+Right Joystick button delay percentage: 22.7%
+
+AVERAGE DELAY: 13.7%

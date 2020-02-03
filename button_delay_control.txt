@@ -1,0 +1,73 @@
+Python 2.7.13 (default, Sep 26 2018, 18:42:22) 
+[GCC 6.3.0 20170516] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+================= RESTART: /home/pi/Desktop/gamepad_read.py =================
+event at 1555357624.596331, code 16, type 03, val -1
+event at 1555357624.760289, code 16, type 03, val 00
+event at 1555357625.472279, code 16, type 03, val -1
+event at 1555357625.624282, code 16, type 03, val 00
+event at 1555357626.756275, code 17, type 03, val -1
+event at 1555357626.932280, code 17, type 03, val 00
+event at 1555357627.752285, code 17, type 03, val -1
+event at 1555357627.928267, code 17, type 03, val 00
+event at 1555357629.224258, code 16, type 03, val 01
+event at 1555357629.408247, code 16, type 03, val 00
+event at 1555357630.188243, code 16, type 03, val 01
+event at 1555357630.356245, code 16, type 03, val 00
+event at 1555357631.252235, code 17, type 03, val 01
+event at 1555357631.420234, code 17, type 03, val 00
+event at 1555357632.132228, code 17, type 03, val 01
+event at 1555357632.292220, code 17, type 03, val 00
+event at 1555357635.604194, code 314, type 01, val 01
+event at 1555357635.780195, code 314, type 01, val 00
+event at 1555357636.336186, code 314, type 01, val 01
+event at 1555357636.504184, code 314, type 01, val 00
+event at 1555357637.484182, code 316, type 01, val 01
+event at 1555357637.668180, code 316, type 01, val 00
+event at 1555357638.204173, code 316, type 01, val 01
+event at 1555357638.376174, code 316, type 01, val 00
+event at 1555357639.656160, code 315, type 01, val 01
+event at 1555357639.824156, code 315, type 01, val 00
+event at 1555357640.472148, code 315, type 01, val 01
+event at 1555357640.660148, code 315, type 01, val 00
+event at 1555357644.096135, code 308, type 01, val 01
+event at 1555357644.292123, code 308, type 01, val 00
+event at 1555357644.852106, code 308, type 01, val 01
+event at 1555357645.052112, code 308, type 01, val 00
+event at 1555357646.360117, code 307, type 01, val 01
+event at 1555357646.568102, code 307, type 01, val 00
+event at 1555357647.048109, code 307, type 01, val 01
+event at 1555357647.236086, code 307, type 01, val 00
+event at 1555357648.268086, code 305, type 01, val 01
+event at 1555357648.448121, code 305, type 01, val 00
+event at 1555357649.000074, code 305, type 01, val 01
+event at 1555357649.184069, code 305, type 01, val 00
+event at 1555357650.064065, code 304, type 01, val 01
+event at 1555357650.264056, code 304, type 01, val 00
+event at 1555357650.824059, code 304, type 01, val 01
+event at 1555357651.044049, code 304, type 01, val 00
+event at 1555357654.396027, code 310, type 01, val 01
+event at 1555357654.592029, code 310, type 01, val 00
+event at 1555357655.140019, code 310, type 01, val 01
+event at 1555357655.316016, code 310, type 01, val 00
+event at 1555357655.968015, code 311, type 01, val 01
+event at 1555357656.188004, code 311, type 01, val 00
+event at 1555357656.784008, code 311, type 01, val 01
+event at 1555357656.995998, code 311, type 01, val 00
+event at 1555357658.487998, code 317, type 01, val 01
+event at 1555357658.647986, code 317, type 01, val 00
+event at 1555357659.295982, code 317, type 01, val 01
+event at 1555357659.459978, code 317, type 01, val 00
+event at 1555357660.259972, code 318, type 01, val 01
+event at 1555357660.439974, code 318, type 01, val 00
+event at 1555357661.015960, code 318, type 01, val 01
+event at 1555357661.187953, code 318, type 01, val 00
+
+Traceback (most recent call last):
+  File "/home/pi/Desktop/gamepad_read.py", line 3, in <module>
+    for event in gamepad.read_loop():
+  File "/usr/local/lib/python2.7/dist-packages/evdev/eventio.py", line 45, in read_loop
+    r, w, x = select.select([self.fd], [], [])
+KeyboardInterrupt
+>>> 
